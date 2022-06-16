@@ -13,7 +13,7 @@ header {
 }
 nav {
   background-color: white;
-  color: black;
+  color: white;
   display: flex;
   height: 5rem;
   align-items: center;
@@ -38,7 +38,10 @@ header ul a {
 header h1 {
   border-radius: 20px;
   background-color: #ff4500;
-  margin-left: 2em;
   font-weight: bold;
   padding: 0.25em;
+}
+
+header:first-child {
+  margin-left: 5em;
 }
