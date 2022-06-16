@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Varela+Round&display=swap");
+/* Varela Round Header Font  
+   Noto Sans Body Font
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* header  */
+header {
+  font-family: "Varela Round", sans-serif;
+}
+nav {
+  background-color: #1f2937;
+  color: #1f2937;
+  display: flex;
+  height: 5rem;
+  align-items: center;
+}
+
+header ul {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+  align-items: center;
+  margin-right: 1em;
+  gap: 1em;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+header h1 {
+  border-radius: 20px;
+  background-color: #f9faf8;
+  margin-left: 1em;
+  font-weight: bold;
+  padding: 0.25em;
+}
