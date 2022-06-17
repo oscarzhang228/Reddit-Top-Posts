@@ -9,7 +9,10 @@
 
 /* header  */
 header {
-  font-family: "Varela Round", sans-serif;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  border-bottom: 2px solid #e8e8e8;
 }
 nav {
   background-color: white;
@@ -17,6 +20,8 @@ nav {
   display: flex;
   height: 5rem;
   align-items: center;
+  font-family: "Varela Round", sans-serif;
+  width: 100%;
 }
 
 header ul {
@@ -26,7 +31,7 @@ header ul {
   justify-content: flex-end;
   padding: 0px;
   align-items: center;
-  margin-right: 5em;
+  padding-right: 5em;
   gap: 3em;
 }
 
@@ -59,7 +64,7 @@ header h1 {
 }
 
 header:first-child {
-  margin-left: 5em;
+  padding-left: 5em;
 }
 
 /* first section */
