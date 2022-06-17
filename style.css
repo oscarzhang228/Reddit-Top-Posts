@@ -32,16 +32,34 @@ header ul {
 
 header ul a {
   text-decoration: none;
-  color: black;
 }
 
+#start {
+  color: #0079d3;
+  border: 1px solid #0079d3;
+  border-radius: 100px;
+  padding: 6px 10px;
+  font-weight: bolder;
+}
+
+#learn {
+  color: white;
+  border-radius: 100px;
+  padding: 6px 10px;
+  font-weight: bolder;
+  background-color: #0079d3;
+  border: 1px solid #0079d3;
+}
 header h1 {
   border-radius: 20px;
   background-color: #ff4500;
-  font-weight: bold;
+  font-weight: 100;
   padding: 0.25em;
+  padding: 5px 10px;
 }
 
 header:first-child {
   margin-left: 5em;
 }
+
+/* first section */
