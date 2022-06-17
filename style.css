@@ -63,3 +63,63 @@ header:first-child {
 }
 
 /* first section */
+
+#introduction {
+  background-color: #dae0e6;
+  height: 80vh;
+  display: flex;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.welcome {
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 20px;
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+#introduction h1 {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.gray {
+  background-color: #e8e8e8;
+  padding: 20px 5px;
+  color: #e8e8e8;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.post h1 {
+  padding: 10px;
+}
+
+.post h2 {
+  padding: 0px 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.post h3 {
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.post button {
+  background: none;
+  color: white;
+  border-radius: 100px;
+  font-weight: bolder;
+  background-color: #0079d3;
+  border: 1px solid #0079d3;
+  padding: 6px 10px;
+  width: 75px;
+  margin: 10px;
+  margin-top: auto;
+  align-self: flex-end;
+}
