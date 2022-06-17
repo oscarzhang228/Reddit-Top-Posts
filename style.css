@@ -69,23 +69,28 @@ header:first-child {
 
 /* first section */
 
-#redditPost {
+.redditPost {
   background-color: #dae0e6;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   font-family: "Noto Sans", sans-serif;
 }
 
+.welcome:hover {
+  border: 1px solid black;
+  transition: 800ms;
+}
 .welcome {
-  border: 1px solid gray;
-  border-radius: 3px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
   margin: 20px;
   background-color: white;
   display: flex;
   width: 100%;
+  margin-bottom: 0px;
 }
 
-#redditPost h1 {
+.redditPost h1 {
   font-size: 10px;
   font-weight: bold;
 }
@@ -94,6 +99,8 @@ header:first-child {
   background-color: #e8e8e8;
   padding: 20px 5px;
   color: #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-radius: 10px;
 }
 
 .post {
@@ -129,9 +136,32 @@ header:first-child {
   align-self: flex-end;
 }
 
-#redditPost img {
+.redditPost img {
   align-self: center;
-  height: 40vh;
+  height: 30vh;
+  max-height: 30vh;
   width: auto;
   margin-top: 40px;
+  max-width: 100%;
+  justify-self: center;
+}
+
+/* second section */
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* third section */
+
+footer {
+  text-align: center;
+  font-size: 8px;
+  font-weight: 100;
 }
